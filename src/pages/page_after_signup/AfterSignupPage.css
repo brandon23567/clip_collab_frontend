@@ -1,0 +1,37 @@
+.main_after_outer_container .container .content_container{
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.main_after_outer_container .container .content_container h2{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.main_after_outer_container .container .content_container p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.main_after_outer_container .container .content_container button{
+    padding: 16px 2.7rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: green;
+}
+
+.main_after_outer_container .container .content_container button .actual_link_btn{
+    text-decoration: none;
+    color: #fff;
+}
