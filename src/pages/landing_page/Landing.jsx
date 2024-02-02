@@ -12,7 +12,7 @@ const Landing = () => {
         const formData = new FormData();
         formData.append("userEmail", userEmail)
 
-        const url = "http://localhost:8000/api/authentication/signup_new_user/"
+        const url = "https://clip-collab-backend.onrender.com/api/authentication/signup_new_user/"
         const config = {
             headers: {
                 "Content-Type": "application/json"
