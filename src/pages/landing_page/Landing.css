@@ -10,11 +10,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .main_landing_page_outer_container .container .content_container h1{
     font-size: 3.5rem;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .main_landing_page_outer_container .container .content_container h1 span{
@@ -28,6 +32,7 @@
     font-size: 17px;
     line-height: 30px;
     font-weight: 300;
+    text-align: center;
 }
 
 .main_landing_page_outer_container .container .content_container .signup_user_cont6ainer .actual_form{
@@ -68,3 +73,38 @@
     background-color: green;
     transition: all 0.3s ease-in-out;
 } */
+
+
+@media screen and (max-width: 700px){
+    /* *{
+        display: none;
+    } */
+
+    .main_landing_page_outer_container .container .content_container .signup_user_cont6ainer .actual_form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_landing_page_outer_container .container .content_container .signup_user_cont6ainer .actual_form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_landing_page_outer_container .container .content_container .signup_user_cont6ainer .actual_form .single_input input{
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .main_landing_page_outer_container .container .content_container h1{
+        font-size: 2rem;
+    }
+
+    .main_landing_page_outer_container .container .content_container p{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+}
