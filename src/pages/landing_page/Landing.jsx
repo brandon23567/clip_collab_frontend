@@ -21,7 +21,7 @@ const Landing = () => {
 
         axios.post(url, formData, config).then((response) => {
             console.log(response)
-            alert("New user has been added bro");
+            alert("You have been added to the waitlist. Thank you");
             window.location.href = "/thank_you";
         })
     }
